@@ -19,11 +19,11 @@
     <div class="border-t-custom border-custom-black relative top-27"></div>
     <div class="flex justify-between">
       <ShrDays day="LUN" />
-      <ShrDays day="MAR" />
-      <ShrDays day="MER" />
-      <ShrDays day="GIO" />
-      <ShrDays day="VEN" />
-      <ShrDays day="SAB" />
+      <ShrDays day="MAR" open="09.00" close="17.00" />
+      <ShrDays day="MER" open="09.00" close="17.00" />
+      <ShrDays day="GIO" open="10.00" close="19.30" />
+      <ShrDays day="VEN" open="09.00" close="19.00" />
+      <ShrDays day="SAB" open="09.00" close="17.00" />
       <ShrDays day="DOM" />
     </div>
   </div>
