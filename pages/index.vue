@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="flex justify-between">
+  <div class="flex justify-between border-b-custom border-custom-black pb-20 sm:pb-0 sm:border-0">
     <!-- logo & book btn mobile -->
     <img src="../../Material/LogoMobile.png" alt="free style logo" class="sm:hidden h-56" />
     <img src="../../Material/Menu.png" alt="menu icon" class="sm:hidden h-40" />
@@ -17,9 +17,9 @@
   </div>
 
   <!-- opening hours -->
-  <div class="px-114 mt-100 hidden sm:block">
+  <div class="sm:px-114 mt-50 sm:mt-100 block overflow-x-auto overflow-y-hidden">
     <div class="border-t-custom border-custom-black relative top-27"></div>
-    <div class="flex justify-between">
+    <div class="flex justify-between gap-x-5">
       <ShrDays day="LUN" />
       <ShrDays day="MAR" open="09.00" close="17.00" />
       <ShrDays day="MER" open="09.00" close="17.00" />
