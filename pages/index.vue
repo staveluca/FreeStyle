@@ -27,15 +27,31 @@
       <ShrDays day="DOM" />
     </div>
   </div>
+
+  <div class="flex justify-between mt-50 items-end">
+    <!-- socials -->
+    <div class="flex flex-col items-center">
+      <div class="border-l-2 border-custom-black h-100 mb-20"></div>
+      <img src="../../Material/WhatsappDesktop.png" alt="whatsapp logo" class="h-30" />
+      <img src="../../Material/FacebookDesktop.png" alt="whatsapp logo" class="h-30 w-15 my-20" />
+      <img src="../../Material/InstaDesktop.png" alt="whatsapp logo" class="h-30" />
+    </div>
+    <!-- position -->
+    <div class="flex items-center">
+      <ShrPosition class="mr-48"/>
+      <shrMap />
+    </div>
+  </div>
 </div>
 </template>
 
 <script>
 import ShrBook from '../components/shrBook.vue';
 import ShrDays from '../components/shrDays.vue';
+import ShrPosition from '../components/shrPosition.vue';
 export default {
     name: "IndexPage",
-    components: { ShrBook, ShrDays }
+    components: { ShrBook, ShrDays, ShrPosition }
 }
 </script>
 
