@@ -1,21 +1,23 @@
 <template>
 <div>
-  <!-- logo & book btn -->
   <div class="flex justify-between">
-    <img src="../../Material/LogoDesktop.png" alt="free style logo" class="h-11" />
-    <ShrBook content="PRENOTA"/>
+    <!-- logo & book btn mobile -->
+    <img src="../../Material/LogoMobile.png" alt="free style logo" class="sm:hidden h-56" />
+    <img src="../../Material/Menu.png" alt="menu icon" class="sm:hidden h-40" />
+    <!-- logo & book btn desktop -->
+    <img src="../../Material/LogoDesktop.png" alt="free style logo" class="h-11 hidden sm:block" />
+    <ShrBook content="PRENOTA" class="hidden sm:block"/>
   </div>
 
-  <!-- navigation menu -->
-  <div class="border-y-custom border-custom-black mt-30 flex justify-center px-229">
-    <!-- highlighted path -->
+  <!-- navigation menu (highlighted route) desktop -->
+  <div class="border-y-custom border-custom-black mt-30 sm:flex justify-center px-229 hidden">
     <shrPath content="HOME" id="border-purple" class="w-1/3 text-custom-purple border-b-2 border-custom-purple" />
     <shrPath content="SERVIZI" class="w-1/3 hover:cursor-pointer" />
     <shrPath content="CHI SIAMO" class="w-1/3 hover:cursor-pointer" />
   </div>
 
   <!-- opening hours -->
-  <div class="px-114 mt-100">
+  <div class="px-114 mt-100 hidden sm:block">
     <div class="border-t-custom border-custom-black relative top-27"></div>
     <div class="flex justify-between">
       <ShrDays day="LUN" />
@@ -28,7 +30,7 @@
     </div>
   </div>
 
-  <div class="flex justify-between mt-50 items-end">
+  <div class="hidden sm:flex justify-between mt-50 items-end">
     <!-- socials -->
     <div class="flex flex-col items-center">
       <div class="border-l-2 border-custom-black h-100 mb-20"></div>
