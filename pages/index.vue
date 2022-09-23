@@ -45,9 +45,9 @@
           <div class="w-20 sm:w-50 border-t-2 border-custom-purple"></div>
           <h1 id="border1-purple" class="text-4xl sm:text-5xl text-custom-purple ml-1 sm:ml-25">RAGGIUNGICI</h1>
         </div>
-        <ShrPosition class="mr-48"/>
+        <ShrPosition class="relative left-20 sm:block sm:left-0 mr-48"/>
       </div>
-      <shrMap />
+      <shrMap class="relative -top-200 sm:block sm:top-0" />
     </div>
   </div>
 </div>
