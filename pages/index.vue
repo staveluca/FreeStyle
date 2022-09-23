@@ -34,7 +34,7 @@
     <!-- socials -->
     <div class="flex lg:flex-col items-center order-2 lg:order-1 self-end relative -top-100 lg:flex lg:top-0">
       <div class="rounded border-b-2 lg:border-b-0 lg:border-l-2 border-custom-black w-40 lg:w-0 lg:h-100 mr-25 lg:mr-0 lg:mb-20"></div>
-      <a href="https://wa.me/393245830083?text=Buongiorno,%20la%20contatto%20perché%20sarei%20interessato/a%20a%20prenotare%20un%20appuntamento.%20Sarei%20disponibile%20per%20le%20seguenti%20date:">
+      <a href="https://wa.me/3392414870?text=Buongiorno,%20la%20contatto%20perché%20sarei%20interessato/a%20a%20prenotare%20un%20appuntamento.%20Sarei%20disponibile%20per%20le%20seguenti%20date:">
         <img src="../../Material/WhatsappDesktop.png" alt="whatsapp logo" class="h-25 lg:h-30" />
       </a>
       <a href="https://www.instagram.com/freestyleparrucchieraunisex/">
