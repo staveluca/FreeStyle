@@ -30,17 +30,23 @@
     </div>
   </div>
 
-  <div class="hidden sm:flex justify-between mt-50 items-end">
+  <div class="flex flex-col sm:flex-row justify-between mt-75 sm:mt-50 items-end">
     <!-- socials -->
-    <div class="flex flex-col items-center">
-      <div class="border-l-2 border-custom-black h-100 mb-20"></div>
-      <img src="../../Material/WhatsappDesktop.png" alt="whatsapp logo" class="h-30" />
-      <img src="../../Material/FacebookDesktop.png" alt="whatsapp logo" class="h-30 w-15 my-20" />
-      <img src="../../Material/InstaDesktop.png" alt="whatsapp logo" class="h-30" />
+    <div class="flex sm:flex-col items-center order-2 sm:order-1">
+      <div class="border-b-2 smborder-b-0 sm:border-l-2 border-custom-black w-40 sm:w-0 sm:h-100 mr-25 sm:mr-0 sm:mb-20"></div>
+      <img src="../../Material/WhatsappDesktop.png" alt="whatsapp logo" class="h-25 sm:h-30" />
+      <img src="../../Material/FacebookDesktop.png" alt="whatsapp logo" class="h-25 sm:h-30 w-15 mx-20 sm:my-20 sm:mx-0" />
+      <img src="../../Material/InstaDesktop.png" alt="whatsapp logo" class="h-25 sm:h-30" />
     </div>
     <!-- position -->
-    <div class="flex items-center">
-      <ShrPosition class="mr-48"/>
+    <div class="flex flex-col sm:flex-row sm:items-center order-1 sm:order-2">
+      <div class="flex flex-col">
+        <div class="flex items-center mb-25 sm:mb-0 sm:mr-50">
+          <div class="w-20 sm:w-50 border-t-2 border-custom-purple"></div>
+          <h1 id="border1-purple" class="text-4xl sm:text-5xl text-custom-purple ml-1 sm:ml-25">RAGGIUNGICI</h1>
+        </div>
+        <ShrPosition class="mr-48"/>
+      </div>
       <shrMap />
     </div>
   </div>
@@ -60,5 +66,9 @@ export default {
 <style>
 #border-purple{
     text-shadow: -0.5px 0 #A391E1, 0 0.5px #A391E1, 0.5px 0 #A391E1, 0 -0.5px #A391E1;
+}
+
+#border1-purple{
+    text-shadow: -1px 0 #A391E1, 0 1px #A391E1, 1px 0 #A391E1, 0 -1px #A391E1;
 }
 </style>
