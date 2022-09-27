@@ -1,8 +1,8 @@
 <template>
     <a href="tel:+393392414870">
-        <div id="container" class="bg-custom-black text-custom-pink rounded-full py-18 px-68 text-2xl hover:text-custom-purple hover:cursor-pointer hover:ring-2 hover: ring-inset hover:ring-custom-purple hover:drop-shadow-custom-shadow">
+        <button id="container" class="bg-custom-black text-custom-pink rounded-full py-18 px-68 text-2xl hover:text-custom-purple hover:cursor-pointer hover:ring-2 hover: ring-inset hover:ring-custom-purple hover:drop-shadow-custom-shadow">
             <p id="border-pink">{{content}}</p>
-        </div>
+        </button>
     </a>
 </template>
 
