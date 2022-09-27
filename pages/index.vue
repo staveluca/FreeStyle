@@ -1,9 +1,16 @@
 <template>
 <div>
+  <!-- menu overlay -->
+  <div v-if="isActive==true" class="h-full w-full fixed top-0 left-0 bg-custom-pink z-20">
+    aaa
+  </div>
+
   <div class="flex justify-between border-b-custom border-custom-black pb-20 lg:pb-0 lg:border-0">
-    <!-- logo & book btn mobile -->
+    <!-- logo & menu btn mobile -->
     <img src="../../Material/LogoMobile.png" alt="free style logo" class="lg:hidden h-56" />
-    <img src="../../Material/Menu.png" alt="menu icon" class="lg:hidden h-40" />
+    <button @click="isActive = !isActive" class="lg:hidden">
+      <img src="../../Material/Menu.png" alt="menu icon" class="h-40" />
+    </button>
     <!-- logo & book btn desktop -->
     <img src="../../Material/LogoDesktop.png" alt="free style logo" class="h-11 hidden lg:block" />
     <ShrBook content="PRENOTA" class="hidden lg:block"/>
@@ -60,12 +67,19 @@
 </template>
 
 <script>
+import { computed } from 'vue';
 import ShrBook from '../components/shrBook.vue';
 import ShrDays from '../components/shrDays.vue';
 import ShrPosition from '../components/shrPosition.vue';
 export default {
-    name: "IndexPage",
-    components: { ShrBook, ShrDays, ShrPosition }
+  name: "IndexPage",
+  components: { ShrBook, ShrDays, ShrPosition },
+
+  data() {
+    return {
+      isActive: false
+    }
+  }
 }
 </script>
 
