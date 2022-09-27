@@ -1,6 +1,8 @@
 <template>
     <div class="text-center">
-        <p class="text-3xl lg:text-4xl">{{content}}</p>
+        <router-link :to="path">
+            <p class="text-3xl lg:text-4xl">{{content}}</p>
+        </router-link>
     </div>
 </template>
 
@@ -10,6 +12,10 @@
         content: {
                 type: String,
                 default: "default"
+            },
+        path: {
+                type: String,
+                default: ""
             }
         }
     }
