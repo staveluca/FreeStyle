@@ -6,7 +6,7 @@
       <img src="../../Material/close.png" alt="close icon" />
     </button>
     <div class="flex flex-col mt-85 gap-40 mb-150">
-      <shrPath path="/index" content="HOME" id="border-purple" class="text-custom-purple border-b-2 border-custom-purple w-auto" />
+      <shrPath path="/" content="HOME" id="border-purple" class="text-custom-purple border-b-2 border-custom-purple w-auto" />
       <shrPath path="/services" content="SERVIZI" class="border-y-custom border-custom-black" />
       <shrPath path="/about" content="CHI SIAMO" class="border-y-custom border-custom-black" />
     </div>
@@ -39,7 +39,7 @@
 
   <!-- navigation menu (highlighted route) desktop -->
   <div class="border-y-custom border-custom-black mt-30 lg:flex justify-center px-229 hidden">
-    <shrPath path="/index" content="HOME" id="border-purple" class="w-1/3 text-custom-purple border-b-2 border-custom-purple" />
+    <shrPath path="/" content="HOME" id="border-purple" class="w-1/3 text-custom-purple border-b-2 border-custom-purple" />
     <shrPath path="/services" content="SERVIZI" class="w-1/3 hover:cursor-pointer" />
     <shrPath path="/about" content="CHI SIAMO" class="w-1/3 hover:cursor-pointer" />
   </div>
